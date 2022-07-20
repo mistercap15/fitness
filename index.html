@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Website | Landing Page Design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <header>
+<a href="#" class="logo">Fitness</a>
+<div class="toggleMenu" onclick="toggleMenu();"></div>
+<ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Trainers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul> 
+    </header>
+    <div class="content">
+    <div class="contentBx">
+       <h2>Build Perfect Body</br> 
+        With Us</h2>
+        <p>We're a private personal training studio in Pune,India who help busy men & women stop"trying to get in shape",and finally achieve a health & body transformation they won't rebound from...</p>     
+    <a href="#">Get Started</a> 
+    </div>
+</div>
+<ul class="sci">
+    <li><a href="#"><img src="facebook.png" alt=""></a></li>
+    <li><a href="#"><img src="twitter.png" alt=""></a></li>
+    <li><a href="#"><img src="instagram.png" alt=""></a></li>
+    </ul>
+</section>
+<script type="text/javascript">
+    function toggleMenu(){
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const navigation = document.querySelector('.navigation');
+        toggleMenu.classList.toggle('active')
+        navigation.classList.toggle('active')
+    }
+</script>
+ </body>
+</html>
